@@ -25,6 +25,7 @@ def user_menu():
             commands = []
             matches(poraj, win, nich, commands)
             ochki(poraj, win, nich, commands)
+            user = input((f'\nЧто будем проверять дальше?\n {menu} \n'))
         else:
             print('Я тебя не понимаю. Давай ещё раз')
             user = input((f'Что будем проверять?\n {menu} \n'))

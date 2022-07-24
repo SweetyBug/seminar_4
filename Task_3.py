@@ -74,3 +74,6 @@ def ochki(dictionary_p, dictionary_w, dictionary_n, com):
             mas.append(0)
         mas.insert(1, count_game)
         mas.append(count_och)
+        print(mas[0], end=': ')
+        del mas[0]
+        print(*mas, sep=',')
